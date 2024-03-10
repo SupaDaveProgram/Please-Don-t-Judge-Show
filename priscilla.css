@@ -15,16 +15,18 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0px 0 0px 0;
+  margin: 10px 10px ;
   height: 30px;
-  transition: ease-in-out 500ms;
+  
 }
 
 .nav__link:hover {
-  transition: 300ms ease-out;
+  display: flex;
+  transition: 600ms all;
   transform: scale(1.5);
   color: azure;
   font-size: larger;
+  border: solid aqua;
 }
 
 a {
@@ -40,12 +42,12 @@ ul {
 }
 
 body {
-  background-image: url(./FES.assets/p.background.png);
+  background-image: url(./p.background.png);
 }
 
 .header__wrapper {
   padding: 20px 1%;
-  background-image: url(./FES.assets/phenom.studio.jpeg);
+  background-image: url(./phenom.studio.jpeg);
   height: 95vh;
 }
 
